@@ -1,0 +1,44 @@
+.collage-container {
+  margin: 0 10px 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.collage {
+  width: 240px;
+  border: 1px solid white;
+}
+
+.h-33,
+.h-50,
+.h-100 {
+  background-position: 50% center;
+  background-size: cover;
+  border: 1px solid white;
+}
+
+.h-33 { height: 80px; background-color: #EEE; }
+.h-50 { height: 120px; background-color: #EEE; }
+.h-100 { height: 240px; background-color: #EEE; }
+
+.collage--loading { 
+  width: 960px;
+  display: block;
+}
+.collage--loading .h-33 { height: 320px; }
+.collage--loading .h-50 { height: 480px; }
+.collage--loading .h-100 { height: 960px; }
+
+.take-snapshot {
+  margin-top: 10px;
+  line-height: 0;
+}
+
+.take-snapshot--disabled {
+  background: #EEE;
+}

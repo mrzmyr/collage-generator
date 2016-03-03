@@ -1,0 +1,24 @@
+.collage-container {
+  position: relative;
+}
+
+.collage-loading-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 1);
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.react-spinner {
+  position: absolute;
+
+  > div {
+    background-color: black;
+  }
+}

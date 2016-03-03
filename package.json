@@ -1,0 +1,38 @@
+{
+  "name": "collage-generator",
+  "version": "0.1.0",
+  "description": "",
+  "main": "html2canvas.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrzmyr/collage-generator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrzmyr/collage-generator/issues"
+  },
+  "homepage": "https://github.com/mrzmyr/collage-generator#readme",
+  "dependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "flexboxgrid": "^6.3.0",
+    "html2canvas": "^0.5.0-beta4",
+    "jquery": "^2.2.1",
+    "node-sass": "^3.4.2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-motion": "^0.4.2",
+    "react-spinner": "^0.2.3",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14"
+  }
+}
